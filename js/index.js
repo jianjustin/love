@@ -1,7 +1,8 @@
 color = ['#f9a363','#8c1346','#d13d3c','#e2663b'];
 $("#button").click(function(){
   /*弹出新页面*/
-  window.location.bref="https://love.jianjustin.fun/letter.html";
+  //window.location.bref="https://love.jianjustin.fun/letter.html";
+  window.open("https://love.jianjustin.fun/letter.html"); 
 });
 function addHeart(){
   randomColor = Math.floor(Math.random() * (4));
